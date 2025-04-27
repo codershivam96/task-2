@@ -1,0 +1,15 @@
+name: Welcome Workflow
+
+on: [push]
+
+jobs:
+  welcome_job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: shivam singhania
+
+      uses: actions/checkout@v3
+
+    - name: Welcome Message
+      run: echo "🎉 Welcome to GitHub Actions! Your workflow ran successfully."s
